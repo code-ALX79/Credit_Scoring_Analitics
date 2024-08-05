@@ -1,2 +1,4 @@
 # Credit_Scoring_Analitics
-En esta Ocasión se brindan servicio de analítica a un Banco que busca calificar la puntuación  crediticia de sus clientes, con el objetivo de ver el tiempo deudando o las deudas de cada uno de ellos, para llegar a conclusiones explicitas.
+Este proyecto  esta diriguido diriguido a la division de prestamos de un banco. Con el objetivo de veriguar si el numero de hijos, estado civil, o estatus familia tienen alguna relacion con el incumplimiento del pago a tiempo de un prestamo. gracias a que el banco tienen algunos datos sobre el historial crediticio de algunos clientes, vamos a proceder a analizarlos.
+
+Esperando que sea de gran utilidad para la correcta calificasion de cada uno de los clientes, procederemos a realizar un analisis minucioso y limpio, para lograr excelentes resultados al momento de tomar esta desicion tan importante
