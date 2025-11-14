@@ -18,7 +18,7 @@
 
 Para garantizar la correcta ejecución del proyecto, se recomienda crear un entorno virtual y usar las dependencias listadas en requirements.txt.
 
-`` sh
+```
 1️⃣ Crear el entorno virtual
 python -m venv venv
 
@@ -34,7 +34,7 @@ git clone https://github.com/code-ALX79/Credit_Scoring_Analitics.git
 5️⃣ Instalar las dependencias
 pip install -r requirements.txt
 
-``
+```
 
 
 🧩 **Descripción general**
