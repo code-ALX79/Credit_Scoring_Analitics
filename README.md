@@ -61,8 +61,7 @@ El proyecto aplica técnicas de **limpieza, transformación y análisis explorat
 
 ⚙️ **Estructura del proyecto**
 
-``
-Credit-Scoring/
+```Credit-Scoring/
 │
 ├── data/
 │   └── credit_scoring_eng.csv        # Dataset original con información de prestatarios
@@ -75,8 +74,7 @@ Credit-Scoring/
 │
 ├── requirements.txt                  # Librerías necesarias
 └── README.md                         # Documentación del proyecto
-
-``
+```
 
 🧹 **Etapas del análisis**
 1️⃣ Carga y exploración inicial
