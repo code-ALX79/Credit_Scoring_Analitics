@@ -77,9 +77,10 @@ El proyecto aplica técnicas de **limpieza, transformación y análisis explorat
 ```
 
 🧹 **Etapas del análisis**
+
 1️⃣ Carga y exploración inicial
 
-*- Lectura del dataset con ``pandas.read_csv().`` *
+*- Lectura del dataset con ``pandas.read_csv().``*
 
 *- Revisión general del contenido con ``.info()`` , ``.head()`` y ``.describe()``*
 
