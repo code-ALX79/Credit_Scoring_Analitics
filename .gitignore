@@ -5,4 +5,5 @@ echo "*.ini" >> .gitignore
 echo "*.ipynb_checkpoints/" >> .gitignore
 echo "~$*" >> .gitignore
 echo ".DS_Store" >> .gitignore
+.venv/
 

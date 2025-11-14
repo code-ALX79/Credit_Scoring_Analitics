@@ -7,7 +7,7 @@
 
 **Lenguaje:** Python
 
-**Librerías utilizadas:** ` ` ` pandas ` ` ` , ` ` ` numpy ` ` ` , ` ` ` os ` ` `
+**Librerías utilizadas:** ``pandas`` , ``numpy`` , ``os`` 
 
 **Tipo de proyecto:** Exploración y análisis de datos (EDA)
 
@@ -18,7 +18,7 @@
 
 Para garantizar la correcta ejecución del proyecto, se recomienda crear un entorno virtual y usar las dependencias listadas en requirements.txt.
 
-``` sh
+`` sh
 1️⃣ Crear el entorno virtual
 python -m venv venv
 
@@ -34,7 +34,7 @@ git clone https://github.com/code-ALX79/Credit_Scoring_Analitics.git
 5️⃣ Instalar las dependencias
 pip install -r requirements.txt
 
-```
+``
 
 
 🧩 **Descripción general**
@@ -61,7 +61,7 @@ El proyecto aplica técnicas de **limpieza, transformación y análisis explorat
 
 ⚙️ **Estructura del proyecto**
 
-` ` `
+``
 Credit-Scoring/
 │
 ├── data/
@@ -76,14 +76,14 @@ Credit-Scoring/
 ├── requirements.txt                  # Librerías necesarias
 └── README.md                         # Documentación del proyecto
 
-` ` `
+``
 
 🧹 **Etapas del análisis**
 1️⃣ Carga y exploración inicial
 
-*- Lectura del dataset con ` ` ` pandas.read_csv(). ` ` `*
+*- Lectura del dataset con ``pandas.read_csv().`` *
 
-*- Revisión general del contenido con ` ` ` .info() ` ` ` , ` ` ` .head() ` ` ` y ` ` ` .describe() ` ` `*
+*- Revisión general del contenido con ``.info()`` , ``.head()`` y ``.describe()``*
 
 *- Identificación de valores nulos y tipos de datos inconsistentes.*
 
@@ -93,21 +93,21 @@ Credit-Scoring/
 
 *- Corrección de valores ausentes en columnas críticas (days_employed, total_income).*
 
-*- Normalización de texto (` ` ` education ` ` ` , ` ` ` family_status ` ` ` ).*
+*- Normalización de texto (``education`` , ``family_status``).*
 
-*- Agrupación de edades por rangos ( ` ` ` dob_years_group ` ` ` ).*
+*- Agrupación de edades por rangos ( ``dob_years_group``).*
 
 *- Creación de funciones personalizadas para imputación de valores nulos.*
 
 3️⃣ Transformación y categorización
 
-*-Estandarización de la columna ` ` ` purpose ` ` ` para clasificar los tipos de préstamo en categorías generales:*
+*-Estandarización de la columna ``purpose`` para clasificar los tipos de préstamo en categorías generales:*
 
-` ` `wedding, car_p, real_state, rw_home, education, other.` ` `
+``wedding, car_p, real_state, rw_home, education, other``
 
-*- Conversión de datos negativos a positivos ` ` ` children` ` `,  ` ` ` days_employed ` ` `.*
+*- Conversión de datos negativos a positivos ``children``,  ``days_employed``.*
 
-*- Revisión de coherencia en las columnas de ` ` ` gender ` ` ` e ` ` ` income_type ` ` `.*
+*- Revisión de coherencia en las columnas de ``gender`` e ``income_type``.*
 
 5️⃣ **Resultados y conclusiones**
 
@@ -123,15 +123,19 @@ Credit-Scoring/
 
 📘 *Opción 1: Desde el Notebook*
 
-*1. Abre el archivo **Proyecto_Puntuacion_Credito.ipynb** en **Jupyter Notebook**, **Colab** o **VSCode**.*
+*1.Desplazate al direcotorio con ``cd notebooks``.*
 
-*1. Ejecuta las celdas en orden para reproducir el análisis paso a paso.*
+*2. Abre el archivo **Proyecto_Puntuacion_Credito.ipynb** en **Jupyter Notebook**, **Colab** o **VSCode**.*
+
+*3. Ejecuta las celdas en orden para reproducir el análisis paso a paso.*
 
 🐍 **Opción 2: Desde consola (versión .py)**
 
 Ejecuta el análisis directamente desde el script con:
 
-` ` ` python credit-scoring.py ` ` `
+*1.Desplazate al direcotorio con ``cd scripts``.*
+
+``python credit-scoring.py``
 
 💡 **Habilidades demostradas**
 
@@ -151,6 +155,6 @@ Ejecuta el análisis directamente desde el script con:
 
 *-El análisis confirma que el **nivel de ingresos** es un predictor relevante del incumplimiento crediticio, mientras que variables familiares como el **estado civil** o **número de hijos** tienen un impacto limitado.*
 
-*-Como evolución natural del proyecto, se propone implementar **modelos predictivos de scoring crediticio** mediante técnicas de Machine Learning (por ejemplo, ` ` ` Logistic Regression` ` `, ` ` ` Random Forest ` ` ` o ` ` ` XGBoost ` ` `), para estimar el riesgo de impago con mayor precisión.*
+*-Como evolución natural del proyecto, se propone implementar **modelos predictivos de scoring crediticio** mediante técnicas de Machine Learning (por ejemplo, ``Logistic Regression``, ``Random Forest``  ``o`` ``XGBoost`` ), para estimar el riesgo de impago con mayor precisión.*
 
 🔗 Si deseas contribuir o mejorar el proyecto, puedes clonar el repositorio y participar en su desarrollo futuro.
