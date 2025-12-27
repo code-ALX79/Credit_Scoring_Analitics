@@ -77,9 +77,10 @@ El proyecto aplica técnicas de **limpieza, transformación y análisis explorat
 ```
 
 🧹 **Etapas del análisis**
+
 1️⃣ Carga y exploración inicial
 
-*- Lectura del dataset con ``pandas.read_csv().`` *
+*- Lectura del dataset con ``pandas.read_csv().``*
 
 *- Revisión general del contenido con ``.info()`` , ``.head()`` y ``.describe()``*
 
@@ -137,17 +138,17 @@ Ejecuta el análisis directamente desde el script con:
 
 💡 **Habilidades demostradas**
 
-*-Limpieza avanzada de datos con pandas*
+*- Limpieza avanzada de datos con pandas*
 
-*-Manejo de valores ausentes y duplicados*
+*- Manejo de valores ausentes y duplicados*
 
-*-Creación de funciones para imputación de datos*
+*- Creación de funciones para imputación de datos*
 
-*-Agrupación y categorización de variables*
+*- Agrupación y categorización de variables*
 
-*-Análisis exploratorio (EDA) y generación de insights*
+*- Análisis exploratorio (EDA) y generación de insights*
 
-*-Documentación clara y profesional de procesos analíticos*
+*- Documentación clara y profesional de procesos analíticos*
 
 🧭 **Conclusiones y próximos pasos**
 
